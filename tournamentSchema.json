@@ -149,9 +149,9 @@
                     "type": "string",
                     "description": "String containing entrant's pronouns for identification"
                 },
-                "mainLanguage": {
-                    "type": "string",
-                    "description": "String containing entrant's main language to communicate."
+                "language": {
+                    "type": "array",
+                    "description": "An array of string containing entrant's language to communicate from most to least frequently used."
                 },
             },
             "required": [],
